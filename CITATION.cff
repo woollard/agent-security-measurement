@@ -1,0 +1,38 @@
+cff-version: 1.2.0
+message: "If you use this dataset or code, please cite it as below."
+type: dataset
+title: "agent-security-measurement: a source-verified database of publicly disclosed AI agent security incidents"
+abstract: >-
+  A source-verified database of 245 publicly disclosed candidate security incidents involving AI agents
+  (January 2024 - September 2026), with event, campaign and root-cause identifiers, inclusion tiers,
+  mechanism, operating-environment and trust-boundary classifications, and links to 1,096 evidence claims.
+  A minimal analysis script reproduces the principal population-definition and trust-boundary results of
+  Standard AI Technical Note 03, an example of research using the database.
+  The data are a curated collection of public disclosures, not a representative sample of deployed AI systems.
+authors:
+  - family-names: Woollard
+    given-names: "David M."
+repository-code: "https://github.com/woollard/agent-security-measurement"
+url: "https://github.com/woollard/agent-security-measurement"
+license:
+  - MIT
+  - CC-BY-4.0
+version: "0.1.0"
+keywords:
+  - AI agents
+  - AI security
+  - incident data
+  - measurement
+  - trust boundaries
+references:
+  - type: report
+    title: "What Counts as an Agent Security Failure? Population Definitions and Trust Boundaries in Reported AI Agent Incidents"
+    authors:
+      - family-names: Woollard
+        given-names: "David M."
+    institution:
+      name: "Standard AI"
+    year: 2026
+    month: 10
+    url: "https://labs.standard.ai/notes/Note-03.pdf"
+    notes: "Standard AI Technical Note 03."

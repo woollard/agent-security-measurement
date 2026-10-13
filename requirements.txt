@@ -1,0 +1,2 @@
+# No third-party packages are required.
+# analysis/analyze.py and analysis/verify.py use only the Python standard library (Python >= 3.9).

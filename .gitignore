@@ -1,0 +1,17 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+# Analysis output (python analysis/analyze.py --out output)
+output/
+# OS / editor
+.DS_Store
+*.swp
+.idea/
+.vscode/
+# Never commit private review material
+private/
+*.private.*
+# The detailed redaction log is held privately by the dataset author
+docs/redaction_log.csv
